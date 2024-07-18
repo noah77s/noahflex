@@ -1,0 +1,112 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo{
+    width: 50px;
+}
+nav p{
+    width: 50px;
+    color: snow;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+.accueil{
+    text-align: center;
+    flex-grow: 1;
+}
+.accueil h1 {
+    font-size: 80px;
+    color: snow;
+    font-weight: 600;
+}
+.accueil span {
+    font-size: 80px;
+    color: snow;
+    font-weight: 600;
+    color: rgb(red, green, blue);
+    font-weight: 800;
+}
+.accueil a {
+    text-decoration: none;
+    display: inline-block;
+    color: snow;
+    font-size: 24px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+    transition: 0.5s;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+.accueil a:hover{ 
+    color: rgb(253, 238, 127);
+}
+.video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.accueil h2 {
+    font-size: 20px;
+    color: snow;
+    font-weight: 600;
+    padding-top: 15px;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: transparent; 
+    color: rgb(0, 0, 0);
+    justify-content: space-between;
+    z-index: 0;
+}
+
+.accueil .compétences {
+    font-size: 20px;
+    color: snow;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.competences h2 {
+    font-size: 50px;
+    color: snow;
+    font-weight: 600;
+    padding-top: 40px;
+}
+.competences img {
+    width: 500px;
+}
